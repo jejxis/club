@@ -12,7 +12,7 @@
 
 <div sec:authorize="isAuthenticated()">Only Authenticated user can see this Text</div>
 Authenticated username:
-<div sec:authentication="principal.username"></div>
+<div sec:authentication="name"></div>
 Authenticated user roles:
 <div sec:authentication="principal.authorities"></div>
 </body>
